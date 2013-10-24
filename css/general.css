@@ -15,6 +15,10 @@ body {
 	width: 45px;
 }
 
+.divider {
+	display: none;
+}
+
 .bobby-pin-divider {
 	padding-bottom: 5%;
 	padding-left: 10%;
@@ -45,6 +49,16 @@ body {
 }
 
 .main-banner {
+	width: 100%;
+	position: relative;
+}
+
+.main-banner-2 {
+	width: 100%;
+	position: relative;
+}
+
+.main-banner-3 {
 	width: 100%;
 	position: relative;
 }
@@ -249,6 +263,18 @@ figcaption {
 	 padding-top: 5%;
  }
  
+ #cut-images {
+	 display: none;
+ }
+ 
+ .one-pic img{
+		display: block;
+		width: 100%;
+		max-width: 590px;
+		margin-left: auto;
+    	margin-right: auto;
+	}
+} 
 
 @media only screen and (min-width: 18em) {
 
@@ -331,6 +357,12 @@ figcaption {
 	width: 80%;
 	padding-left: 10%;
 }
+	
+.cut-hair {
+	width: 80%;
+	padding-left: 10%;
+	padding-bottom: 10%;
+}
 
 }
 
@@ -354,11 +386,6 @@ body {
 	padding-top: 5%;
 }
 
-.divider {
-	width: 100%;
-	margin: 0;
-}
-
 footer {
 	padding-bottom: 5%;
 }
@@ -371,6 +398,10 @@ footer {
 	body {
 		border-right: dotted thin #e66086;
 		border-left: dotted thin #e66086;
+	}
+	
+	.banner-link {
+		font-size: 7em;
 	}
 	
 	.mobile-nav {
@@ -437,6 +468,11 @@ footer {
 		padding-left: 10%;
 	}
 	
+	.trending-now-2 {
+		padding-left: 10%;
+		padding-top: 10%;
+	}
+	
 	figcaption {
 	padding-left: 10%;
 	}
@@ -449,6 +485,94 @@ footer {
 	.social-media-container {
 		padding-bottom: .5%;
 	}
+	
+	.divider {
+		display: block;
+		width: 100%;
+		margin: 0;
+	}
+
+}
+	
+@media only screen and (min-width: 76em) {
+	
+	.one-pic {
+		display: none;
+	}
+	
+	.cut-1-bob-banner {
+		width: 50%;
+		padding: 5%;
+	}
+	
+	.cut-2-bob-banner {
+		width: 50%;
+		float: right;
+		padding: 5%;
+	}
+	
+	.shaved-1-cut-banner {
+		width: 50%;
+		padding: 5%;
+	}
+	
+	.shaved-2-cut-banner {
+		width: 50%;
+		float: right;
+		padding: 5%;
+	}
+	
+	#cut-images {
+		background: none;
+		position:relative;
+		padding-left: 8%;
+		display: block;
+		border-bottom: solid thin #e66086;
+	}
+	
+	#cutimgleft {
+		float:left;
+		padding-left: 5%;
+	} 
+	
+	#cutimgright {
+		position:absolute;
+		top:0;
+		float: right;
+		padding-left: 15%;
+	} 
+	#aboutimages > div{
+		width:50px;
+		height:50px;
+	}
+
+	.divider {
+		padding-top: 5%;
+	}
+	
+	.trending-now-2 {
+		padding-left: 10%;
+		padding-top: 30%;
+	}
+	
+	.trending-now-bob {
+		padding-left: 20%;
+		padding-right: 20%;
+	}
+	
+	.fig-2 {
+		padding-left: 20%;
+		padding-bottom: 5%;
+	}
+	
+	.blog-2-p {
+		padding-left: 12%;
+	}
+	
+	footer {
+		padding-top: 25%;
+	}
+
 }
 
 @media only screen and (min-width: 1024px) {
