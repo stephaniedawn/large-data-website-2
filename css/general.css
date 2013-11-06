@@ -303,6 +303,10 @@ a:active {
 	 padding-left: 5%;
  }
  
+ .footer p {
+	 padding-left: 5%;
+ }
+ 
  .copyright {
 	 font-size: .75em;
 	 padding-top: 5%;
@@ -355,6 +359,37 @@ a:active {
   padding: 8px;
 }
 
+.tools-small-fig {
+	padding-left: 5%;
+	font-size: .5em;
+}
+
+.tools-p {
+	padding-left: 5%;
+	padding-right: 5%;
+	font-family: 'Noto Sans', sans-serif;
+	font-size: .75em;
+}
+
+.tools-pic {
+	width: 100%;
+	max-width: 400px;
+}
+
+.tools-header {
+	font-size: 1.2em;
+	padding-left: 5%;
+	margin-top: 5%;
+	padding-bottom: 0;
+	margin-bottom: 0;
+	color: #e66086;
+}
+
+.tools-big-fig {
+	font-size: .75em;
+	padding-left: 5%;
+}
+
 } 
 
 @media only screen and (min-width: 18em) {
@@ -374,6 +409,23 @@ a:active {
 	width: 100%;
 	margin-left: auto;
     margin-right: auto;
+}
+
+.tools-p {
+	padding-left: 5%;
+	padding-right: 5%;
+	font-family: 'Noto Sans', sans-serif;
+	font-size: .75em;
+}
+
+.tools-pic {
+	display: block;
+	width: 100%;
+	max-width: 400px;
+	margin-left: auto;
+    margin-right: auto;
+	padding-top: 5%;
+	padding-bottom: 5%;
 }
 
 }
@@ -489,7 +541,29 @@ a:active {
 	padding-bottom: 10%;
 }
 
+.tools-p {
+	font-family: 'Noto Sans', sans-serif;
+	font-size: .75em;
+	padding-left: 20%;
+	padding-right: 20%;
+}
 
+
+.tools-header {
+	font-size: 2em;
+	padding-left: 20%;
+	margin-top: 5%;
+	padding-bottom: 0;
+	margin-bottom: 0;
+	color: #e66086;
+}
+
+
+
+.tools-big-fig {
+	font-size: .75em;
+	padding-left: 20%;
+}
 
 }
 
@@ -515,6 +589,23 @@ body {
 
 footer {
 	padding-bottom: 5%;
+}
+	
+.tools-big-fig {
+	font-size: .75em;
+	padding-left: 20%;
+}
+
+.tools-pic {
+	display: block;
+	width: 100%;
+	max-width: 400px;
+	margin-left: auto;
+    margin-right: auto;
+}
+
+.tools-header {
+	padding-left: 20%;
 }
 	
 }
@@ -783,7 +874,8 @@ footer {
 	.ombre-1-img {
 		padding-top: 22%;
 	}
-
+	
+	
 }
 
 @media only screen and (min-width: 73.75em) {
@@ -832,15 +924,15 @@ footer {
 	
 	#cut-images {
 		background: none;
-		position:relative;
-		padding-left: 8%;
+		position: relative;
 		display: block;
+		padding-left: 5%;
+		padding-right: 5%;
 		border-bottom: solid thin #e66086;
 	}
 	
 	#cutimgleft {
 		float:left;
-		padding-left: 5%;
 	} 
 	
 	#cutimgright {
