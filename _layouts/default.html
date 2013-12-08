@@ -66,48 +66,27 @@
 		
 		
 		
-		<nav class="mobile-nav" role="navigation">
-			<ul class="mobile-nav-ul">
-				<li class="mobile-nav-li">
-					<a href="index.html" rel="home" class="a-mobile-nav-links">Home</a>	
-				</li>
-				<li class="mobile-nav-li">
-					<a href="cuts.html" class="a-mobile-nav-links">Cuts</a>
-				</li>
-				<li class="mobile-nav-li">
-					<a href="colours.html" class="a-mobile-nav-links">Colours</a>
-				</li>
-				<li class="mobile-nav-li">
-					<a href="styles.html" class="a-mobile-nav-links">Styles</a>
-				</li>
-				<li class="mobile-nav-li">
-					<a href="tools.html" class="a-mobile-nav-links">Tools</a>
-				</li>
-				<li class="mobile-nav-li">
-					<a href="products.html" class="a-mobile-nav-links">Products</a>
-				</li>
-			</ul>	
-		</nav>
+		{% include nav.html %}
 		
 		<nav class="bigger-nav">
 			<ul class="bigger-nav-ul">
 				<li class="bigger-nav-li">
-					<a href="index.html" rel="home" class="a-bigger-nav-links">Home</a>	
+					<a href="{{site.baseurl}}/index.html" rel="home" class="a-bigger-nav-links">Home</a>	
 				</li>
 				<li class="bigger-nav-li">
-					<a href="cuts.html" class="a-bigger-nav-links">Cuts</a>
+					<a href="{{site.baseurl}}/cuts.html" class="a-bigger-nav-links">Cuts</a>
 				</li>
 				<li class="bigger-nav-li">
-					<a href="colours.html" class="a-bigger-nav-links">Colours</a>
+					<a href="{{site.baseurl}}/colours.html" class="a-bigger-nav-links">Colours</a>
 				</li>
 				<li class="bigger-nav-li">
-					<a href="styles.html" class="a-bigger-nav-links">Styles</a>
+					<a href="{{site.baseurl}}/styles.html" class="a-bigger-nav-links">Styles</a>
 				</li>
 				<li class="bigger-nav-li">
-					<a href="tools.html" class="a-bigger-nav-links">Tools</a>
+					<a href="{{site.baseurl}}/tools.html" class="a-bigger-nav-links">Tools</a>
 				</li>
 				<li class="bigger-nav-li">
-					<a href="products.html" class="a-bigger-nav-links">Products</a>
+					<a href="{{site.baseurl}}/products.html" class="a-bigger-nav-links">Products</a>
 				</li>
 			</ul>	
 		</nav>
